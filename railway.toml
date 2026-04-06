@@ -1,0 +1,8 @@
+[build]
+builder = "RAILPACK"
+
+[deploy]
+startCommand = "/start-container.sh"
+
+[variables]
+PHP_VERSION = "8.4"
